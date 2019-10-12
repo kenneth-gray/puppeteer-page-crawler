@@ -10,13 +10,13 @@ Some potential ideas:
 ## Installation
 
 ```
-npm install puppeteer-page-crawler
+npm install puppeteer puppeteer-page-crawler
 ```
 
 ## Example usage
 
 ```javascript
-const { run } = require('../src');
+const { run } = require('puppeteer-page-crawler');
 
 const siteConfig = {
   id: 'deque-university',
